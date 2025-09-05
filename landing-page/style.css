@@ -34,7 +34,7 @@ a {
     gap: 40px
 }
 
-.hero-content-modal {
+.hero-content-left {
     display: flex;
     flex-direction: column;
     flex:1;
@@ -51,7 +51,7 @@ a {
     font-weight: 900;
 }
 
-.modal-header {
+.header {
     color: #f9faf8;
     font-size: 48px;
     font-weight: 900; 
@@ -65,12 +65,10 @@ button {
     background-color: #3882f6;
     flex: 0 0 auto;
     width: 100px;
-  }
-
-button.modal {
     font-size: 14px;
     font-weight: 900;
-}
+    border: none;
+  }
 
 .text {
     color: #e5e7eb;
@@ -81,7 +79,7 @@ button.modal {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 40px 200px;
+    padding: 100px 200px;
 }
 
 .info-header {
@@ -113,7 +111,7 @@ img.info {
 
 .testimonial {
     background-color: #e5e7eb;
-    padding: 40px 200px;
+    padding: 100px 200px;
 }
 
 .testimonial-quote {
@@ -129,4 +127,33 @@ img.info {
     color: #1f2937;
     text-align: end;
 }
+
+.call-to-action {
+    padding: 40px 100px;
+}
+.call-to-action-card {
+    display: flex;
+    align-items: center;
+    background-color: #3882f6;
+    padding: 50px 200px;
+    justify-content: space-between;
+    border-radius: 8px;
+}
+
+.call-to-action-header {
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.call-to-action-text {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.call-to-action-button {
+    border: 1px solid #f9faf8;
+}
+
+
 
