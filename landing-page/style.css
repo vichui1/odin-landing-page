@@ -1,5 +1,6 @@
 body {
     font-family: 'Roboto', sans-serif;
+    margin: 0;
   }
 
 ul {
@@ -108,5 +109,24 @@ img.info {
 
 .info-text {
     text-align: center;
+}
+
+.testimonial {
+    background-color: #e5e7eb;
+    padding: 40px 200px;
+}
+
+.testimonial-quote {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.testimonial-quote-author {
+    font-size: 24px;
+    font-weight: 900;
+    color: #1f2937;
+    text-align: end;
 }
 
