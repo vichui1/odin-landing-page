@@ -155,5 +155,15 @@ img.info {
     border: 1px solid #f9faf8;
 }
 
+.footer {
+    background-color: #1f2937;
+    padding: 20px 200px;
+}
+
+.footer {
+    color: #e5e7eb;
+    font-size: 14px;
+    text-align: center;
+}
 
 
